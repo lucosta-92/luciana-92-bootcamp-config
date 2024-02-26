@@ -67,6 +67,12 @@ bootstrap:
               - cdf-group: cdf:all:read
                 idp-source-id: 617e6838-4e1c-463f-a04b-ebd3ee43cb5a # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-27-test-all-read # i.e. bootcamp-01-test-all-read
+              - cdf-group: cdf:uc:001:oee:owner
+                idp-source-id: b5f885f0-937f-4585-a324-f03a72f4ac19 # for the AAD Group to be matched to cdf-group
+                idp-source-name: bootcamp-27-test-uc-001-oee-owner # i.e. bootcamp-01-test-all-owner
+              - cdf-group: cdf:uc:001:oee:read
+                idp-source-id: 4bcda82b-034c-4ea4-a1ff-f0e43954f114 # for the AAD Group to be matched to cdf-group
+                idp-source-name: bootcamp-27-test-uc-001-oee-read # i.e. bootcamp-01-test-all-owner
 
         - cdf-project: cdf-bootcamp-27-prod
           mappings:
@@ -79,6 +85,12 @@ bootstrap:
               - cdf-group: cdf:all:read
                 idp-source-id: c29c0e2a-30ce-413c-b123-0b5cebb626c1
                 idp-source-name: bootcamp-27-prod-all-read
+              - cdf-group: cdf:uc:001:oee:owner
+                idp-source-id: 9eac6b53-730a-4a7f-a23e-40b84112c5cd # for the AAD Group to be matched to cdf-group
+                idp-source-name: bootcamp-27-prod-uc-001-oee-owner # i.e. bootcamp-01-test-all-owner
+              - cdf-group: cdf:uc:001:oee:read
+                idp-source-id: 45e3e378-f6a3-49bb-8925-207a409b0de4 # for the AAD Group to be matched to cdf-group
+                idp-source-name: bootcamp-27-prod-uc-001-oee-read # i.e. bootcamp-01-test-all-owner
 
 
     namespaces:
